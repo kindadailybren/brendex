@@ -32,6 +32,8 @@ async function fetchData(){
     if(!response.ok || !response_desc.ok){
       displayName.innerHTML = "Pokemon not Found (?)"
       sprite.src = "https://projectpokemon.org/home/uploads/monthly_2017_07/missingno.png.4bc4f1920385390a41f267dd8f15b2ed.png"
+      name2.innerHTML = ""
+      desc.innerHTML = ""
       throw new Error("Could not fetch resource")
     }
 
