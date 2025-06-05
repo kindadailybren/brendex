@@ -1,0 +1,51 @@
+body{
+  background-image: url("media/back.webp");
+  background-size: cover;
+  font-family:"Pixelify Sans"
+}
+#sprite{
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+img{
+  width: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 200px black;
+}
+h1{
+  font-size:20px;
+}
+#displayName{
+  text-align: center;
+}
+#display{
+  margin-top: -390px;
+}
+div{
+  text-align:center;
+  padding: 10px;
+}
+#pokemon_name{
+  font-family:"Pixelify Sans";
+  font-size: 20px;
+  background-color:#2A2B25;
+  border: black solid 1px;
+  border-radius:7px;
+  color:white;
+  padding: 7px;
+}
+button{
+  font-family:"Pixelify Sans";
+  background-color: #1889B4;
+  color: white;
+  border: black solid 1px;
+  border-radius:7px;
+  padding: 7px;
+  transition:0.5s;
+}
+button:hover{
+  padding: 8px;
+}
