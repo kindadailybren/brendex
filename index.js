@@ -24,6 +24,8 @@ audio.play()
 // Main API Call
 async function fetchData(){
   try{
+    desc.innerHTML = " "
+
     let num = Math.floor((Math.random() * 10))
     const pokemonName = document.getElementById("pokemon_name").value.toLowerCase();
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
